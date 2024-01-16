@@ -1,0 +1,316 @@
+<!--
+  Greetings!
+  This delightful template has been meticulously crafted and brought to life by Syed Mohsin. It is generously shared with the world, inviting you to unleash your creativity and tailor it to your heart's content.
+-->
+<!-- For any inquiries or collaborations reach out to me at devsyedmohsin@gmail.com -->
+<!--
+  Embrace the guidance inscribed within the comments below to fashion an awe-inspiring portfolio of your own.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="Welcome to my portfolio website. I am a Web integrator and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations." />
+    <meta itemprop="name" content="Stanislas Mainguy's Portfolio" />
+    <meta itemprop="description" content="Welcome to my portfolio website. I am a Web integrator and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations." />
+    <link rel="shortcut icon" href="assets/images/favicons.png" type="image/png" />
+    <link rel="preload" href="assets/fonts/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script src="langage.js" defer></script>
+    <title data-lang="pageTitle">Stanislas Mainguy's Portfolio</title>
+  </head>
+
+  <body>
+    <script>
+      const theme = localStorage.getItem("theme") || "dark";
+      document.body.classList.add(theme);
+    </script>
+
+    <header class="header">
+      <div class="menu-btn-container">
+        <div class="container">
+          <button type="button" data-lang="menuText" class="menu-btn">menu</button>
+        </div>
+        <label class="theme-switch" for="theme-switch">
+          <span data-lang="themeText">Dark Theme</span>
+          <input type="checkbox" id="theme-switch" role="switch"/>
+        </label>
+        <div id="language-toggle">En or Fr</div>
+      </div>
+
+      <nav class="nav hidden">
+        <ol class="nav-items">
+          <li class="nav-item"><a href="#" data-lang="navTextHome">Home</a></li>
+          <li class="nav-item"><a href="#work" data-lang="navTextWork">My Work</a></li>
+          <li class="nav-item"><a href="#skills" data-lang="navTextSkills">My Skills</a></li>
+          <li class="nav-item">
+            <a href="#contact" 
+               data-focused="last-focused" 
+               data-lang="navTextContact">Contact</a>
+          </li>
+        </ol>
+      </nav>
+
+      <div class="container">
+        <div class="header-textbox">
+          <h1 class="h1" data-lang="h1Text">
+            Hi, I'm Stanislas Mainguy<br />
+            Web integrator.
+          </h1>
+          <p class="header-text" data-lang="headerText">
+            A Web integrator who builds
+            rich accessible and performant websites.
+          </p>
+          <div class="header-btns">
+            <a href="#contact" class="btn btn-cta" data-lang="hireText">Hire me</a>
+            <a href="#work" class="btn btn-secondary" data-lang="seeMyWorkText">See my work</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="work">
+        <div class="container">
+          <h2 class="h2" id="work" data-lang="h2TextWorks">Selected Work</h2>
+          <div class="work-boxes">
+            <div class="work-box">
+              <div class="work-textbox">
+                <h3 class="h3">Booki</h3>
+                <p class="work-text" data-lang="work1Text">
+                  A site for finding hotel or B&B accommodation.
+                </p>
+                <ol class="work-technologies">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                </ol>
+                <div class="work-links">
+                  <a href="https://stanislas-mainguy.github.io/OpenClassrooms_Projet3/#" 
+                     target="_blank" 
+                     rel="noopener" 
+                     class="link"
+                     data-lang="workLinksText"
+                    >Explore this project</a
+                  >
+                  <a
+                    href="https://github.com/Stanislas-Mainguy/OpenClassrooms_Projet3"
+                    target="_blank"
+                    rel="noopener"
+                    title="Source code"
+                  >
+                    <img
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div>
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="assets/images/work/booki.webp"
+                  alt="Booki page"
+                />
+              </picture>
+            </div>
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">agencyelevation.com</h3>
+                <!-- Add small description of your project  -->
+
+                <p class="work-text">Website for Agency Elevation.</p>
+                <ol class="work-technologies">
+                  <li>React</li>
+                  <li>Gatsby</li>
+                  <li>Material UI</li>
+                </ol>
+                <div class="work-links">
+                  <!-- Add url of project in href attribute -->
+                  <a href="#" target="_blank" rel="noopener" class="link"
+                    >Explore this project</a
+                  >
+
+                     <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                  <a
+                    href="http://github.com/devsyedmohsin"
+                    target="_blank"
+                    rel="noopener"
+                    title="Source code"
+                  >
+                    <img
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div>
+         <!-- Update img src and alt attribute  -->
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="assets/images/work/agency-elevation.webp"
+                  alt="portfolio template"
+                />
+              </picture>
+            </div>
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">contribute.dev</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text">
+                  Website for DevX A dedicated space for developer experience
+                </p>
+                <ol class="work-technologies">
+                  <li>Ruby</li>
+                  <li>SvelteKit</li>
+                  <li>Emotion</li>
+                </ol>
+                <div class="work-links">
+                  <!-- Add url of project in href attribute -->
+                  <a href="#" target="_blank" rel="noopener" class="link"
+                    >Explore this project</a
+                  >
+
+                   <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener"
+                    title="Source code"
+                  >
+                    <img
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div>
+         <!-- Update img src and alt attribute  -->
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="assets/images/work/contribute-dev.webp"
+                  alt="contribute dev"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills">
+        <div class="container">
+          <h2 class="h2" id="skills" data-lang="h2SkillsText">My Toolkit</h2>
+          <div class="skills-imgs">
+                <img src="assets/images/skills/react.webp" alt="React" class="skills-img" loading="lazy" title="React">
+                <img src="assets/images/skills/typescript.webp" alt="Typescript" class="skills-img" loading="lazy" title="Typescript">
+                <img src="assets/images/skills/a11y.webp" alt="Accessibility" class="skills-img" loading="lazy" title="Web Accessibility">
+                <img src="assets/images/skills/shell.webp" alt="Shell" class="skills-img" loading="lazy" title="Shell">
+                <img src="assets/images/skills/git.webp" alt="Git" class="skills-img" loading="lazy" title="Git">
+                <img src="assets/images/skills/html.webp" alt="CSS" class="skills-img" loading="lazy" title="CSS">
+                <img src="assets/images/skills/js.webp" alt="JavaScript" class="skills-img" loading="lazy" title="JavaScript">
+            </figure>
+          </div>
+        </div>
+      </section>
+      
+      <section class="contact">
+        <div class="container">
+          <h2 class="h2" id="contact" data-lang="h2ContactText">Send Message</h2>
+          <div class="contact-content">
+            <div class="contact-textbox">
+              <strong href="#" class="hire-alert">
+                <span class="indicator" data-lang="indicatorText"></span>
+                Available for hire
+              </strong>
+              <p class="contact-text" data-lang="contactText">
+                As a Web integrator, I construct web interfaces and design
+                systems with a special love for accessibility and the
+                performance. I tend to code things from scratch and enjoy
+                bringing ideas to life.
+              </p>
+            </div>
+            <form action="#" class="contact-form" netlify>
+              <div class="form-field">
+                <label for="name" data-lang="labelName">Name</label>
+                <input type="text" name="name" id="name" required />
+              </div>
+              <div class="form-field">
+                <label for="email" data-lang="labelEmail">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  inputmode="email"
+                />
+              </div>
+              <div class="form-field">
+                <label for="message" data-lang="labelMessage">How can I help you?</label>
+                <textarea name="message" id="message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-cta" data-lang="submitText">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <nav>
+            <ol class="footer-links">
+              <li class="footer-link">
+                <a title="GitHub" href="https://github.com/Stanislas-Mainguy" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/github.svg"
+                    alt="GitHub"
+                /></a>
+              </li>
+            </li>
+            <li class="footer-link">
+              <a title="Codepen" href="#" target="_blank" rel="noopener"
+                ><img
+                  loading="lazy"
+                  src="assets/images/social-links/codepen.svg"
+                  alt="Codepen"
+              /></a>
+            </li>
+            <li class="footer-link">
+              <a title="Linkedin" href="#" target="_blank" rel="noopener"
+                ><img
+                  loading="lazy"
+                  src="assets/images/social-links/linkedin.svg"
+                  alt="Linkedin"
+              /></a>
+            </li>
+            <li class="footer-link">
+              <a title="Twitter" href="#" target="_blank" rel="noopener"
+                ><img
+                  loading="lazy"
+                  src="assets/images/social-links/twitter.svg"
+                  alt="Twitter"
+              /></a>
+            </li>
+            </ol>
+          </nav>
+          <p class="footer-text" data-lang="footerText">
+            &copy; <span>2024</span> - Portfolio by <a target="_blank" rel="noopener" href="https://github.com/Stanislas-Mainguy">Stanislas Mainguy.</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
