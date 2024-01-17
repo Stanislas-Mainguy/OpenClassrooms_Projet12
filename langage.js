@@ -22,6 +22,9 @@ const translations = {
         // Works section
          h2TextWorks: "Selected Work",
          work1Text: "A site for finding hotel or B&B accommodation.",
+         work2Text: "Menu reservation site by restaurant.",
+         work3Text: "A site for finding B&B accommodation.",
+         work4Text: "Portfolio of Nina Carducci, photographer.",
          workLinksText: "Explore this project",
         // Skills section
          h2SkillsText: "My Toolkit",
@@ -33,6 +36,8 @@ const translations = {
          labelEmail: "Email",
          labelMessage: "How can I help you?",
          submitText: "Send",
+        // Footer section
+         footerText: "- Portfolio by",
     },
     fr: {
         // Page title
@@ -52,6 +57,9 @@ const translations = {
         // Works section
          h2TextWorks: "Travaux Sélectionnés",
          work1Text: "Un site pour trouver un hôtel ou un Bed & Breakfast.",
+         work2Text: "Site de réservation de menu par restaurant.",
+         work3Text: "Un site pour trouver un Bed & Breakfast.",
+         work4Text: "Portefolio de Nina Carducci, photographe.",
          workLinksText: "Explorer ce projet",
         // Skills section
          h2SkillsText: "Ma Boîte à Outils",
@@ -63,6 +71,8 @@ const translations = {
          labelEmail: "E-mail",
          labelMessage: "Comment puis-je vous aider ?",
          submitText: "Envoyer",
+        // Footer section
+         footerText: "- Portfolio de",
     },
 };
 
