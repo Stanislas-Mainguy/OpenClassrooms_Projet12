@@ -490,6 +490,12 @@ main {
   align-items: center;
 }
 
+@media (max-width: 340px) {
+  .menu-btn-container {
+    flex-direction: column;
+  }
+}
+
 /* --------------------------------- */
 /* ----- Navigation -----*/
 /* --------------------------------- */
