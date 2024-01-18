@@ -20,9 +20,8 @@
   --text-medium: 1.275rem;
   --text-small: 1.125rem;
 
-  --gradient-brand: radial-gradient(at 60% 31%,
-      rgb(255, 131, 139) 0px,
-      transparent 50%),
+  --gradient-brand:
+    radial-gradient(at 60% 31%, rgb(255, 131, 139) 0px, transparent 50%),
     radial-gradient(at 48% 98%, rgba(0, 255, 166, 0.707) 0px, transparent 50%),
     radial-gradient(at 84% 67%, rgb(255, 129, 125) 0px, transparent 50%),
     radial-gradient(at 16% 47%, rgb(255, 90, 112) 0px, transparent 50%),
