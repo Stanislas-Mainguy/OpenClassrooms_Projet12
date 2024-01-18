@@ -75,14 +75,16 @@ switchThemeEl.addEventListener("click", () => {
   if (!isChecked) {
     document.body.classList.remove("dark");
     document.body.classList.add("light");
+    themeLabel.setAttribute('data-lang', 'lightThemeText');
     localStorage.setItem("theme", "light");
-    themeLabel.textContent = "Light Theme";
+    themeLabel.textContent = translations[currentLanguage]["lightThemeText"];
     switchThemeEl.checked = false;
   } else {
     document.body.classList.add("dark");
+    themeLabel.setAttribute('data-lang', 'darkThemeText');
     document.body.classList.remove("light");
     localStorage.setItem("theme", "dark");
-    themeLabel.textContent = "Dark Theme";
+    themeLabel.textContent = translations[currentLanguage]["darkThemeText"];
   }
 });
 
@@ -107,7 +109,8 @@ const translations = {
         // Nav section inside the menu
         menuText: "menu",
         closeMenu: "close",
-        themeText: "Dark Theme",
+        darkThemeText: "Dark Theme",
+        lightThemeText: "Light Theme",
         navTextHome: "Home",
         navTextWork: "My Work",
         navTextSkills: "My Skills",
@@ -143,7 +146,8 @@ const translations = {
         // Nav section inside the menu
          menuText: "menu",
          closeMenu: "fermer",
-         themeText: "Thème sombre",
+         darkThemeText: "Thème Sombre",
+         lightThemeText: "Thème Clair",
          navTextHome: "Accueil",
          navTextWork: "Mon Travail",
          navTextSkills: "Mes Compétences",
@@ -183,6 +187,9 @@ function updateTextContent() {
     btnToggleNav.textContent = nav.classList.contains("hidden")
     ? translations[currentLanguage]["menuText"]
     : translations[currentLanguage]["closeMenu"];
+    themeLabel.textContent = switchThemeEl.checked
+    ? translations[currentLanguage]["darkThemeText"]
+    : translations[currentLanguage]["lightThemeText"];
 };
   
 languageToggle.addEventListener("click", () => {
