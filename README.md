@@ -32,7 +32,6 @@ Make sure to subscribe to our [youtube channel](https://www.youtube.com/@nisarha
 - Fast loads.
 - SEO-optimized.
 
-<img src="assets/images/lighthouse.png" alt="lighthouse report with 100% scores">
 
 ## Customizing the Template
 
