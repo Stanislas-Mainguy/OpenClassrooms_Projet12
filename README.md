@@ -1,4 +1,4 @@
-# Lien GH Page of this Portfolio
+# Link GH Page of this Portfolio
 
 https://stanislas-mainguy.github.io/OpenClassrooms_Projet12/
 
