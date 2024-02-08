@@ -286,7 +286,13 @@
                 bringing ideas to life.
               </p>
             </div>
-            <form name="contactForm" class="contact-form" netlify>
+            <form 
+              name="contactForm" 
+              class="contact-form" 
+              method="POST"
+              netlify-honeypot="bot-field"
+              data-netlify="true"
+            >
               <input type="hidden" name="form-name" value="contactForm"/>
               <div class="form-field">
                 <label for="name" data-lang="labelName">Name</label>
