@@ -1,4 +1,4 @@
-# Lien GH Page of this Portfolio
+# Link GH Page of this Portfolio
 
 https://stanislas-mainguy.github.io/OpenClassrooms_Projet12/
 
@@ -32,7 +32,6 @@ Make sure to subscribe to our [youtube channel](https://www.youtube.com/@nisarha
 - Fast loads.
 - SEO-optimized.
 
-<img src="assets/images/lighthouse.png" alt="lighthouse report with 100% scores">
 
 ## Customizing the Template
 
@@ -79,7 +78,5 @@ You will find a file named `index.html` open it and follow the guidance inscribe
 ### Deploying the Site
 
 Watch [this youtube video](https://www.youtube.com/watch?v=oEyXLYW3RjY) to learn how to deploy your version of the portfolio-template to the web.
-
-[![Deploy your version of the Portfolio template using Netlify](assets/images/thumbnail.png)](https://www.youtube.com/watch?v=oEyXLYW3RjY "Deploy your version of the Portfolio template using Netlify")
 
 ### Contributions are warmly welcomed ❤️.
