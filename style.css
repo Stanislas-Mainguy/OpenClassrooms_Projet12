@@ -1235,6 +1235,12 @@ body.light .signatures {
   list-style-type: none;
 }
 
+.footer-link {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
 @media (max-width: 1040px) {
   .footer-links {
     gap: var(--gutter-micro);
