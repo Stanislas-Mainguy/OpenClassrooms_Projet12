@@ -105,7 +105,7 @@ let currentLanguage = "en";
 const translations = {
     en: {
         // Page title
-        pageTitle: "Stanislas Mainguy's Portfolio",
+        pageTitle: "Stanislas Portfolio",
         // Nav section inside the menu
         menuText: "menu",
         closeMenu: "close",
@@ -116,7 +116,7 @@ const translations = {
         navTextSkills: "My Skills",
         navTextContact: "Contact",
         // Presentation text
-         h1Text: "Hi, I'm Stanislas Mainguy Web integrator.",
+         h1Text: "Hi, I'm Stanislas",
          headerText: "A web integrator who builds rich accessible and performant websites.",
          hireText: "Hire me",
          seeMyWorkText: "See my work",
@@ -142,7 +142,7 @@ const translations = {
     },
     fr: {
         // Page title
-         pageTitle: "Portfolio de Stanislas Mainguy",
+         pageTitle: "Portfolio de Stanislas",
         // Nav section inside the menu
          menuText: "menu",
          closeMenu: "fermer",
@@ -153,7 +153,7 @@ const translations = {
          navTextSkills: "Mes Compétences",
          navTextContact: "Contact",
         // Presentation text
-         h1Text: "Bonjour, je suis Stanislas Mainguy, Intégrateur Web.",
+         h1Text: "Bonjour, je suis Stanislas",
          headerText: "Un intégrateur web qui crée des sites riches, accessibles et performants.",
          hireText: "Embauchez-moi",
          seeMyWorkText: "Voir mon travail",
