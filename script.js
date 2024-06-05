@@ -117,7 +117,7 @@ const translations = {
         navTextContact: "Contact",
         // Presentation text
          h1Text: "Hi, I'm Stanislas",
-         headerText: "A web integrator who builds rich accessible and performant websites.",
+         headerText: "A Front-End Developer who builds rich accessible and performant websites.",
          hireText: "Hire me",
          seeMyWorkText: "See my work",
         // Works section
