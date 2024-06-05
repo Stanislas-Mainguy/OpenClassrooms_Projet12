@@ -132,7 +132,7 @@ const translations = {
         // Contact section
          h2ContactText: "Send Message",
          indicatorText: "Available for hire",
-         contactText: "As a Web integrator, I construct web interfaces and design systems with a special love for accessibility and the performance. I tend to code things from scratch and enjoy bringing ideas to life.",
+         contactText: "As a Front-End Developer, I construct web interfaces and design systems with a special love for accessibility and the performance. I tend to code things from scratch and enjoy bringing ideas to life.",
          labelName: "Name",
          labelEmail: "Email",
          labelMessage: "How can I help you?",
@@ -154,7 +154,7 @@ const translations = {
          navTextContact: "Contact",
         // Presentation text
          h1Text: "Bonjour, je suis Stanislas",
-         headerText: "Un intégrateur web qui crée des sites riches, accessibles et performants.",
+         headerText: "Un Développeur Front-End qui crée des sites riches, accessibles et performants.",
          hireText: "Embauchez-moi",
          seeMyWorkText: "Voir mon travail",
         // Works section
@@ -169,7 +169,7 @@ const translations = {
         // Contact section
          h2ContactText: "Envoyer un Message",
          indicatorText: "Disponible pour embauche",
-         contactText: "En tant qu'intégrateur web, je construis des interfaces web et des systèmes de conception avec un amour particulier pour l'accessibilité et la performance. J'ai tendance à coder les choses à partir de zéro et j'aime donner vie aux idées.",
+         contactText: "En tant que Développeur Front-End, je construis des interfaces web et des systèmes de conception avec un amour particulier pour l'accessibilité et la performance. J'ai tendance à coder les choses à partir de zéro et j'aime donner vie aux idées.",
          labelName: "Nom",
          labelEmail: "E-mail",
          labelMessage: "Comment puis-je vous aider ?",
